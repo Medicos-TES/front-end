@@ -40,6 +40,6 @@ export class CadastrarComponent implements OnInit {
       verticalPosition: "top",
     });
 
-    this.router.navigate([""]);
+    this.router.navigate(["/medico/listar"]);
   }
 }
