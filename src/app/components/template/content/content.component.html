@@ -1,0 +1,19 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened fixedInViewport="true" fixedTopGap="64">
+    <mat-nav-list>
+      <mat-list-item>
+        <mat-icon class="material-icons-outlined" mat-list-icon>list</mat-icon>
+        <a mat-list-item routerLink="/medico/listar">Listar</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon class="material-icons-outlined" mat-list-icon
+          >app_registration</mat-icon
+        >
+        <a mat-list-item routerLink="/medico/cadastrar">Cadastrar</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
